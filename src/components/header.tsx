@@ -62,8 +62,17 @@ export function Header() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.8 }}
-        className="mt-4"
+        className="mt-4 flex gap-4 justify-center"
       >
+        <a
+          href={`https://${cvData.contact.github}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gray-800 text-white hover:bg-gray-700 transition-colors"
+        >
+          <span className="text-lg">🐙</span>
+          <span>GitHub</span>
+        </a>
         <a
           href={`https://${cvData.contact.linkedin}`}
           target="_blank"

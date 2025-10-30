@@ -43,7 +43,8 @@ export interface CVData {
 
 export const cvData: CVData = {
   name: "Grant Marthinus",
-  title: "Full-Stack Software Engineer",
+  title:
+    "Full-Stack Software Developer & Cloud Engineer | Mechatronics Engineer",
   contact: {
     phone: "+27 63 848 9622",
     email: "grantmarthinus@gmail.com",
@@ -215,12 +216,12 @@ export const cvData: CVData = {
     {
       degree: "BTech Degree: Mechanical Engineering (Mechatronics)",
       institution: "CPUT",
-      period: "In Progress (2 subjects remaining)",
+      period: "",
     },
     {
       degree: "National Diploma: Mechanical Engineering (Mechatronics)",
       institution: "CPUT",
-      period: "2014–2018",
+      period: "",
     },
     {
       degree: "Matriculated",
