@@ -61,6 +61,21 @@ export function Projects() {
                         </Badge>
                       </motion.div>
                     ))}
+                    {project.link && (
+                      <a
+                        href={`http://${project.link}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block"
+                      >
+                        <Badge
+                          variant="outline"
+                          className="bg-gradient-to-r from-purple-500 to-purple-700 border-purple-400 text-purple-100 hover:from-purple-600 hover:to-purple-800 transition-all duration-300 cursor-pointer"
+                        >
+                          {project.link}
+                        </Badge>
+                      </a>
+                    )}
                   </div>
                 )}
               </motion.div>
