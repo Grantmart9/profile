@@ -16,7 +16,7 @@ export function Projects() {
       <Card className="overflow-hidden border-primary/10 shadow-lg shadow-primary/5">
         <CardHeader className="border-b border-primary/10 bg-gradient-to-r from-primary/5 to-transparent">
           <CardTitle className="text-2xl font-semibold text-gray-900 dark:text-white flex items-center gap-2">
-            <span className="text-primary">🚀</span> Key Projects
+            <span className="text-primary">🚀</span> Shareable Projects
           </CardTitle>
         </CardHeader>
         <CardContent className="pt-6">

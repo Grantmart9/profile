@@ -87,7 +87,7 @@ export const cvData: CVData = {
         "Node.js",
         "PostgresSQL",
       ],
-      link: "https://intelli-farm.net/",
+      link: "intelli-farm.net/",
     },
     {
       title: "WeCare Web App",
