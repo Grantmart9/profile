@@ -72,7 +72,7 @@ export function Projects() {
                           variant="outline"
                           className="bg-gradient-to-r from-purple-500 to-purple-700 border-purple-400 text-purple-100 hover:from-purple-600 hover:to-purple-800 transition-all duration-300 cursor-pointer"
                         >
-                          {project.link}
+                          View Demo
                         </Badge>
                       </a>
                     )}

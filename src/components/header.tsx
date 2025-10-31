@@ -40,12 +40,6 @@ export function Header() {
       >
         <span className="flex items-center gap-2 hover:text-primary transition-colors">
           <span className="w-8 h-8 flex items-center justify-center rounded-full bg-primary/10 text-primary">
-            📞
-          </span>
-          {cvData.contact.phone}
-        </span>
-        <span className="flex items-center gap-2 hover:text-primary transition-colors">
-          <span className="w-8 h-8 flex items-center justify-center rounded-full bg-primary/10 text-primary">
             ✉
           </span>
           {cvData.contact.email}

@@ -2,7 +2,6 @@ export interface CVData {
   name: string;
   title: string;
   contact: {
-    phone: string;
     email: string;
     location: string;
     linkedin: string;
@@ -46,20 +45,20 @@ export const cvData: CVData = {
   title:
     "Full-Stack Software Developer & Cloud Engineer | Mechatronics Engineer",
   contact: {
-    phone: "+27 63 848 9622",
     email: "grantmarthinus@gmail.com",
     location: "Cape Town, South Africa",
     linkedin: "www.linkedin.com/in/grant-marthinus-5a7bb9135",
     github: "www.github.com/grantmart9",
   },
   summary:
-    "Full-stack engineer with a strong background in Mechatronics and 7+ years of hands-on experience in software development, cloud architecture, and automation. Proficient in React, Next.js, Node.js, Python, and Supabase, with recent work integrating AI-driven systems and scalable cloud solutions. Known for building efficient, user-centric web platforms that bridge the gap between software and hardware automation.",
+    "Full-Stack Engineer with a strong foundation in Mechatronics and over 7 years of experience in software development, cloud architecture, and automation. Skilled in React, Next.js, Node.js, Python, and Supabase, with recent projects integrating AI-driven systems and scalable cloud infrastructures. Passionate about developing high-performance, user-focused web platforms that seamlessly connect software innovation with hardware automation.",
   skills: {
     frontend: [
       "React",
       "Next.js",
       "TypeScript",
       "Tailwind CSS",
+      "Material UI",
       "Shadcn",
       "Framer Motion",
     ],
@@ -84,39 +83,11 @@ export const cvData: CVData = {
         "React.js",
         "Tailwind CSS",
         "Material UI",
-        "TypeScript",
+        "JavaScript",
         "Node.js",
         "PostgresSQL",
       ],
       link: "https://intelli-farm.net/",
-    },
-    {
-      title: "Maintenance Streamlining Web App",
-      description:
-        "Developed a digital workflow to replace manual paper-based maintenance sheets, reducing data processing time by 70%.",
-      technologies: [
-        "Next.js",
-        "Tailwind CSS",
-        "Shadcn",
-        "TypeScript",
-        "Node.js",
-        "Supabase",
-      ],
-      link: "www.maintenance-streamlining-app.com",
-    },
-    {
-      title: "EcoMetrics Web App",
-      description:
-        "EcoMetrics empowers businesses to track and reduce their carbon footprint with intelligent analytics and automated reporting.",
-      technologies: [
-        "Next.js",
-        "Tailwind CSS",
-        "Shadcn",
-        "TypeScript",
-        "Node.js",
-        "Supabase",
-      ],
-      link: "13.60.220.2:8083/",
     },
     {
       title: "WeCare Web App",
@@ -133,6 +104,21 @@ export const cvData: CVData = {
       link: "13.60.220.2:8082/",
     },
     {
+      title: "EcoMetrics Web App",
+      description:
+        "EcoMetrics empowers businesses to track and reduce their carbon footprint with intelligent analytics and automated reporting.",
+      technologies: [
+        "Next.js",
+        "Tailwind CSS",
+        "Shadcn",
+        "TypeScript",
+        "Node.js",
+        "Supabase",
+      ],
+      link: "13.60.220.2:8083/",
+    },
+
+    {
       title: "FaithConnect Web App",
       description:
         "Eagle Ministries is a comprehensive church management application designed to streamline administrative tasks, facilitate community engagement, and handle financial contributions for religious organizations.",
@@ -147,9 +133,9 @@ export const cvData: CVData = {
       link: "13.60.220.2:8084/",
     },
     {
-      title: "Hospital Critical Gas Monitoring System",
+      title: "AssetTrackr Web App",
       description:
-        "Created a GSM-to-PLC communication system (RS485) for critical gas alarms, now implemented in private hospitals nationwide.",
+        "AssetTrackr is an asset management platform that helps organizations efficiently track, manage, and maintain their physical and digital assets in real-time.",
       technologies: [
         "Next.js",
         "Tailwind CSS",
@@ -158,7 +144,7 @@ export const cvData: CVData = {
         "Node.js",
         "Supabase",
       ],
-      link: "",
+      link: "13.60.220.2:8085/",
     },
     {
       title: "Depression-Aid AI Platform",
@@ -174,6 +160,20 @@ export const cvData: CVData = {
       ],
       link: "13.60.220.2:8086/",
     },
+    {
+      title: "Holiday Rentals Web App",
+      description:
+        "Holiday Rentals is a vacation property management platform that allows property owners to list their rentals and connect with potential guests for bookings and inquiries.",
+      technologies: [
+        "Next.js",
+        "Tailwind CSS",
+        "Shadcn",
+        "TypeScript",
+        "Node.js",
+        "Supabase",
+      ],
+      link: "13.60.220.2:8087/",
+    },
   ],
   experience: [
     {
@@ -181,47 +181,54 @@ export const cvData: CVData = {
       company: "Temo Consulting",
       period: "Jul 2024 – Present",
       description:
-        "Lead developer for web and mobile apps using React, Next.js, and Flutter. Designed database and cloud architecture. Conducted R&D and mentored junior devs.",
+        "Lead developer for web and mobile apps using React/Next.js, Node.js,Supabase, and Flutter. Designed database and cloud architecture. Conducted R&D and mentored junior devs.",
     },
     {
       position: "Cloud Support Engineer",
       company: "Amazon Web Services",
       period: "Feb 2023 – Jun 2024",
       description:
-        "Supported EC2, EKS, RDS, and other core AWS services. Provided scalable cloud infrastructure support and automation troubleshooting.",
+        "Supported EC2 ,ELB ,Lambda ,API Gateway ,ECS ,EKS , RDS, and other core AWS services. Provided scalable cloud infrastructure support and automation troubleshooting.",
     },
     {
       position: "Automation Engineer",
       company: "Lodicon",
       period: "Apr 2021 – Feb 2023",
       description:
-        "Built full-stack automation dashboards (React, Python, Node.js). Integrated PLCs, HMIs, and SCADA systems into unified control platforms.",
+        "Built full-stack automation dashboards (React, Python, FLASK, Node.js, PostgresSQL). Integrated PLCs, HMIs, and SCADA systems into unified control platforms.",
     },
     {
       position: "Automation Engineer",
-      company: "Sloth Electronics SA",
+      company: "Sloth Electronics",
       period: "Aug 2019 – Apr 2021",
       description:
-        "Developed PLC-based hospital automation systems (SCADA, MQTT, C++). Deployed monitoring systems across private hospitals.",
+        "Developed PLC-based hospital automation systems (PLC, HMI, and SCADA). Developed a web application (Python, Flask, React) to monitor and control PLC systems.",
     },
     {
-      position: "Technician",
+      position: "Automation Technician",
       company: "Centurion Systems",
+      period: "Dec 2019 – Aug 2019",
+      description:
+        "Performed electronic repairs, fault analysis, and production support for security automation systems.",
+    },
+    {
+      position: "Automation technician intern",
+      company: "Electromechanica",
       period: "Dec 2018 – Aug 2019",
       description:
-        "Performed electronic repairs, fault analysis, and production support.",
+        "Performed electronic repairs, fault analysis, and production support for industrial automation systems.",
     },
   ],
   education: [
     {
       degree: "BTech Degree: Mechanical Engineering (Mechatronics)",
       institution: "CPUT",
-      period: "",
+      period: "2026",
     },
     {
       degree: "National Diploma: Mechanical Engineering (Mechatronics)",
       institution: "CPUT",
-      period: "",
+      period: "2018",
     },
     {
       degree: "Matriculated",
