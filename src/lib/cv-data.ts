@@ -174,6 +174,20 @@ export const cvData: CVData = {
       ],
       link: "13.60.220.2:8087/",
     },
+    {
+      title: "Giftbox Web App",
+      description:
+        "Giftbox is an online platform that enables users to create, share, and manage personalized gift registries for various occasions such as birthdays, weddings, and holidays.",
+      technologies: [
+        "Next.js",
+        "Tailwind CSS",
+        "Shadcn",
+        "TypeScript",
+        "Node.js",
+        "Supabase",
+      ],
+      link: "13.60.220.2:8088/",
+    },
   ],
   experience: [
     {
