@@ -27,7 +27,7 @@ export function Additional() {
               className="bg-gradient-to-br from-white to-primary/5 dark:from-slate-800/80 dark:to-primary/10 p-4 rounded-lg border border-primary/10 hover:border-primary/30 transition-all duration-300"
             >
               <h3 className="font-semibold text-primary dark:text-primary mb-3 flex items-center gap-2">
-                <span className="text-primary text-lg">📝</span> Thesis
+                <span className="text-primary text-lg">📝</span> Btech Thesis
                 <div className="h-px flex-1 bg-primary/20 ml-2"></div>
               </h3>
               <p className="text-gray-700 dark:text-gray-300">
